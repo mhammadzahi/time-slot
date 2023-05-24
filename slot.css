@@ -1,0 +1,41 @@
+
+.time-grid {
+  display: grid;
+  grid-template-columns: 10em repeat(6, 1fr);  Adjust the width of the first column 
+  grid-template-rows: 6.22em repeat(6, 1fr);
+  gap: 0.063em;
+}
+
+.time-slot {
+  border: 0.063em solid #dddddd;
+  text-align: center;
+  padding: 0.313em;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable-div {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; Optional: Enables smooth scrolling on iOS devices 
+}
+    
+.time-slot-available-2 {
+  background-color: #c4f7a6;
+  background-color: #50C878;
+}
+
+.time-slot-available-1 {
+  background-color: #F4C430	
+}
+    
+.time-slot-unavailable {
+   background-color: #fca6a6;
+}
+    
+.time-slot-highlight {
+  background-color: #a6c2f7;
+  background-color: #6b89c0;
+}
